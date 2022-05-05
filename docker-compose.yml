@@ -3,7 +3,7 @@ version: "3.9"
 services:
 
   wordpress:
-    image: wordpress:5.8.2-apache
+    image: wordpress:5.9.3-apache
     restart: always
     ports:
       - "127.0.0.1:8090:80"
